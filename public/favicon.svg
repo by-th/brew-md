@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="cup" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a2e1b"/>
+      <stop offset="1" stop-color="#2c1a0f"/>
+    </linearGradient>
+  </defs>
+  <!-- cream tile -->
+  <rect width="64" height="64" rx="15" fill="#f3ece1"/>
+  <!-- steam: dotted code-comment curls -->
+  <g fill="none" stroke="#cdbca0" stroke-width="2.4" stroke-linecap="round">
+    <path d="M28 14.5c-4 .5-4 6.5 0 7"/>
+    <path d="M33.5 16c4 .5 4 5 1 6.5c-1.6 .8 -2 2.2 -1 3.3"/>
+  </g>
+  <circle cx="34.2" cy="12.4" r="2" fill="#2e7d4f"/>
+  <circle cx="30.4" cy="21.8" r="1.8" fill="#e6912b"/>
+  <rect x="35.6" y="25.6" width="4.4" height="2.3" rx="1.15" fill="#82905a"/>
+  <circle cx="32.8" cy="28.4" r="1.6" fill="#cdbca0"/>
+  <!-- shadow -->
+  <ellipse cx="29" cy="53.4" rx="16" ry="2.4" fill="#3a2414" opacity="0.14"/>
+  <!-- cup body -->
+  <path d="M15 30.6 H43 C42.6 45 39.4 52.6 29 52.6 C18.6 52.6 15.4 45 15 30.6 Z" fill="url(#cup)"/>
+  <!-- handle -->
+  <path d="M42.4 33 C50.6 32.4 51 45 43.4 45.6" fill="none" stroke="#3a2417" stroke-width="4" stroke-linecap="round"/>
+  <!-- rim + coffee -->
+  <ellipse cx="29" cy="30.6" rx="14" ry="2.9" fill="#f4ede1"/>
+  <ellipse cx="29" cy="30.7" rx="11.4" ry="2.1" fill="#6f4626"/>
+  <path d="M19.6 30c6-2.4 12.8-2.4 18.8 0" fill="none" stroke="#e7d8bf" stroke-width="1.3" stroke-linecap="round" opacity="0.8"/>
+  <!-- </> -->
+  <g fill="none" stroke="#e6912b" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M25.4 38.6 L21.7 41.9 L25.4 45.2"/>
+    <path d="M27.3 45.8 L30.9 38.4"/>
+    <path d="M33.2 38.6 L36.9 41.9 L33.2 45.2"/>
+  </g>
+</svg>
